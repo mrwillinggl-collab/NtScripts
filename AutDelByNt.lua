@@ -1,12 +1,676 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+-- Auto Delivery by Nt - Optimizado para Delta Executor
+-- Protegido con anti-bypass NTScripts
 
-]]--
+-- ====================== ANTI-BYPASS ======================
+if not _G["NTScripts_Secret_2026"] then
+    warn("[NTScripts] Acceso denegado. Ejecuta el Key System primero.")
+    return
+end
+-- ========================================================
 
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v207,v208) local v209={};for v250=1, #v207 do v6(v209,v0(v4(v1(v2(v207,v250,v250 + 1 )),v1(v2(v208,1 + (v250% #v208) ,1 + (v250% #v208) + 1 )))%256 ));end return v5(v209);end if  not _G[v7("\255\247\232\38\244\178\215\10\194\252\232\32\229\169\194\10\238\145\139\119\176","\126\177\163\187\69\134\219\167")] then local v251=0 -0 ;while true do if (v251==(550 -(400 + 150))) then warn(v7("\24\227\30\246\255\49\196\58\209\239\30\141\11\198\255\38\222\37\133\248\38\195\47\194\253\39\194\100\133\217\41\200\41\208\232\34\141\47\201\188\8\200\51\133\207\58\222\62\192\241\99\221\56\204\241\38\223\37\139","\156\67\173\74\165"));return;end end end local v8=game:GetService(v7("\4\187\72\15\185\52\85","\38\84\215\41\118\220\70"));local v9=game:GetService(v7("\98\19\50\30\247\83\23\54\23\250\99\2\45\0\255\87\19","\158\48\118\66\114"));local v10=game:GetService(v7("\153\49\30\5\118\183\237\162\39\21","\155\203\68\112\86\19\197"));local v11=game:GetService(v7("\114\202\51\249\78\75\224\234\80\212\53\249","\152\38\189\86\156\32\24\133"));local v12=game:GetService(v7("\223\88\181\67\219\66\174","\38\156\55\199"));local v13=game:GetService(v7("\157\110\121\58\58\122\234\86\188\78\121\58\5\125\249\70","\35\200\29\28\72\115\20\154"));local v14=v8.LocalPlayer;local v15={[v7("\60\177\208\221\129\41\48","\84\121\223\177\191\237\76")]=false,[v7("\150\87\209\137\46\85\61\210","\161\219\54\169\192\90\48\80")]=12 -8 ,[v7("\126\67\9\49\104\68\20\32\91\100\21\41\69","\69\41\34\96")]=2.5 + 1 ,[v7("\150\214\218\26\42\46\181\196\223\30\45\45\186\208\210\30","\75\220\163\183\106\98")]=1684 -(1607 + 27) ,[v7("\50\179\136\60\204\18\158\142\59\216\27","\185\98\218\235\87")]=0.12,[v7("\251\53\36\237\203\186\255\53\42\227\209\191\223","\202\171\92\71\134\190")]=1 + 2 };local v16=nil;local v17=false;local v18=false;local v19=nil;local v20=false;local v21=false;local v22=0;local v23=0;local v24=0;local v25=false;local function v26() local v210=0;local v211;while true do if (v210==(1726 -(1668 + 58))) then local v270=626 -(512 + 114) ;while true do if (v270==(2 -1)) then v210=1 -0 ;break;end if (v270==(0 -0)) then v211=v14.Character;if  not v211 then return nil;end v270=1;end end end if (v210==1) then return v211:FindFirstChild(v7("\1\212\33\137\39\206\37\140\27\206\35\156\25\192\62\156","\232\73\161\76"));end end end local function v27() local v212=0 + 0 ;local v213;while true do if (v212==(0 + 0)) then v213=0 + 0 ;while true do if ((0 -0)==v213) then if v19 then v19:Disconnect();end v19=v10.Stepped:Connect(function() if  not v15.Enabled then return;end local v317=v14.Character;if  not v317 then return;end for v321,v322 in pairs(v317:GetDescendants()) do if v322:IsA(v7("\153\216\81\88\46\186\203\86","\126\219\185\34\61")) then if (v322.Name==v7("\36\219\83\115\112\120\250\227\62\193\81\102\78\118\225\243","\135\108\174\62\18\30\23\147")) then v322.CanCollide=true;else v322.CanCollide=false;end end end end);break;end end break;end end end local function v28() if v19 then local v260=1994 -(109 + 1885) ;local v261;while true do if (v260==(1469 -(1269 + 200))) then v261=0 -0 ;while true do if (v261==(815 -(98 + 717))) then v19:Disconnect();v19=nil;break;end end break;end end end end local function v29(v214) local v215=v26();if ( not v215 or  not v214) then return false;end local v216=v214 + Vector3.new(0,v15.JumpHeightOffset,826 -(802 + 24) ) ;v215.CFrame=CFrame.new(v216);return true;end local function v30(v218) local v219=0;while true do if (v219==(0 -0)) then for v283,v284 in pairs(v9:GetDescendants()) do if ((v284.Name==v218) and (v284:IsA(v7("\132\236\39\196\12\171\21\210\184\234\62\194\23\160","\167\214\137\74\171\120\206\83")) or v284:IsA(v7("\185\245\63\82\236\162\174\230\55\83\236","\199\235\144\82\61\152")))) then return v284;end end return nil;end end end local function v31(v220) local v221=0 -0 ;local v222;while true do if (v221==0) then local v271=0;local v272;while true do if (v271==(0 + 0)) then v272=0 + 0 ;while true do if (v272==1) then v221=1 + 0 ;break;end if (v272==0) then v222=v30(v220);if  not v222 then return false;end v272=1;end end break;end end end if (v221==1) then pcall(function() if v222:IsA(v7("\53\19\180\36\19\19\159\62\9\21\173\34\8\24","\75\103\118\217")) then v222:InvokeServer();else v222:FireServer();end end);break;end end end local function v32() v31(v7("\247\93\115\31\172\14","\126\167\52\16\116\217"));end local function v33() v31(v7("\236\43\44\137\162\28\238","\156\168\78\64\224\212\121"));end local function v34() local v223=0;local v224;local v225;while true do if (v223==(1 + 0)) then return v12;end if (v223==(0 -0)) then local v273=0 -0 ;while true do if (v273==(0 + 0)) then v224,v225=pcall(function() return gethui();end);if (v224 and v225) then return v225;end v273=1 + 0 ;end if (v273==(1 + 0)) then v223=1;break;end end end end end local v35=Instance.new(v7("\52\237\183\203\2\224\130\219\14","\174\103\142\197"));v35.Name=v7("\119\61\75\55\1\91\244\95\62\90\42\60\97","\152\54\72\63\88\69\62")   .. math.random(1000,7271 + 2728 ) ;v35.ResetOnSpawn=false;v35.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;v35.DisplayOrder=466885 + 533114 ;v35.IgnoreGuiInset=true;pcall(function() if (syn and syn.protect_gui) then syn.protect_gui(v35);end end);v35.Parent=v34();local v43=Instance.new(v7("\242\214\239\81\209","\60\180\164\142"));v43.Size=UDim2.new(1434 -(797 + 636) ,0 -0 ,1620 -(1427 + 192) ,0 + 0 );v43.BackgroundColor3=Color3.fromRGB(23 -13 ,9 + 1 ,15);v43.BackgroundTransparency=0.3 + 0 ;v43.BorderSizePixel=326 -(192 + 134) ;v43.Parent=v35;local v49=Instance.new(v7("\108\91\29\61\11\236\16\93\82","\114\56\62\101\73\71\141"));v49.Size=UDim2.new(1276 -(316 + 960) ,223 + 177 ,0 + 0 ,74 + 6 );v49.Position=UDim2.new(0.5 -0 , -200,551.5 -(83 + 468) , -40);v49.BackgroundTransparency=1;v49.Text=v7("\150\221\200\199\170\224\203\208\171","\164\216\137\187");v49.TextColor3=Color3.fromRGB(1986 -(1202 + 604) ,653 -513 ,424 -169 );v49.TextSize=132 -84 ;v49.Font=Enum.Font.GothamBold;v49.TextTransparency=1;v49.Parent=v43;local v60=TweenInfo.new(0.8,Enum.EasingStyle.Quad,Enum.EasingDirection.Out);v11:Create(v49,v60,{[v7("\230\227\41\166\146\236\10\220\245\33\179\180\251\5\209\255","\107\178\134\81\210\198\158")]=325 -(45 + 280) ,[v7("\12\11\154\210\153\49\20\135","\202\88\110\226\166")]=51 + 1 }):Play();task.delay(1.6 + 0 ,function() local v226=TweenInfo.new(0.6 + 0 ,Enum.EasingStyle.Quad,Enum.EasingDirection.In);v11:Create(v49,v226,{[v7("\247\10\154\227\254\209\14\140\228\218\194\29\135\249\201\218","\170\163\111\226\151")]=1 + 0 ,[v7("\37\53\170\44\125\62\51\20","\73\113\80\210\88\46\87")]=40}):Play();v11:Create(v43,v226,{[v7("\163\45\206\25\224\147\35\216\28\227\181\62\204\28\244\145\45\223\23\233\130\53","\135\225\76\173\114")]=1 + 0 }):Play();task.wait(0.65 -0 );v43:Destroy();end);local v61=Instance.new(v7("\60\255\185\189\169","\199\122\141\216\208\204\221"));v61.Name=v7("\128\220\25\254\94\228\172\208\21","\150\205\189\112\144\24");v61.Size=UDim2.new(1911 -(340 + 1571) ,0,0 + 0 ,1772 -(1733 + 39) );v61.Position=UDim2.new(0.5 -0 ,0,1034.25 -(125 + 909) ,0);v61.BackgroundColor3=Color3.fromRGB(22,1970 -(1096 + 852) ,15 + 17 );v61.BackgroundTransparency=0.7;v61.BorderSizePixel=0 -0 ;v61.Active=true;v61.Visible=false;v61.Parent=v35;Instance.new(v7("\16\173\156\67\22\134\20\2","\112\69\228\223\44\100\232\113"),v61).CornerRadius=UDim.new(0,14 + 0 );local v72=Instance.new(v7("\225\54\52\199\164\115\141\209","\230\180\127\103\179\214\28"));v72.Color=Color3.fromRGB(632 -(409 + 103) ,336 -(46 + 190) ,275 -(51 + 44) );v72.Thickness=1.8 + 0 ;v72.Parent=v61;local v76=Instance.new(v7("\184\0\71\82\200\64\226\137\9","\128\236\101\63\38\132\33"));v76.Size=UDim2.new(1318 -(1114 + 203) , -(806 -(228 + 498)),0,34);v76.Position=UDim2.new(0 + 0 ,14,0 + 0 ,669 -(174 + 489) );v76.BackgroundTransparency=1;v76.Text=v7("\141\188\5\75\146\238\195\165\191\20\86\175\171\205\181\233\63\112","\175\204\201\113\36\214\139");v76.TextColor3=Color3.fromRGB(230,220,255);v76.TextSize=17;v76.Font=Enum.Font.GothamBold;v76.TextXAlignment=Enum.TextXAlignment.Left;v76.Parent=v61;local v87=Instance.new(v7("\115\201\45\200\38\82\216\33\211\10","\100\39\172\85\188"));v87.Size=UDim2.new(0 -0 ,1937 -(830 + 1075) ,524 -(303 + 221) ,1301 -(231 + 1038) );v87.Position=UDim2.new(1 + 0 , -(1234 -(171 + 991)),0 -0 ,6);v87.BackgroundColor3=Color3.fromRGB(147 -92 ,50,187 -112 );v87.Text="–";v87.TextColor3=Color3.fromRGB(205 + 50 ,893 -638 ,735 -480 );v87.TextSize=32 -12 ;v87.Font=Enum.Font.GothamBold;v87.Parent=v61;Instance.new(v7("\152\81\154\143\33\163\125\171","\83\205\24\217\224"),v87).CornerRadius=UDim.new(0 -0 ,1256 -(111 + 1137) );local v97=Instance.new(v7("\210\192\213\41\196\208\217\41\233\203","\93\134\165\173"));v97.Size=UDim2.new(158 -(91 + 67) ,95 -63 ,0,8 + 24 );v97.Position=UDim2.new(524 -(423 + 100) , -(1 + 35),0,16 -10 );v97.BackgroundColor3=Color3.fromRGB(180,50,32 + 28 );v97.Text="X";v97.TextColor3=Color3.fromRGB(255,255,1026 -(326 + 445) );v97.TextSize=65 -50 ;v97.Font=Enum.Font.GothamBold;v97.Parent=v61;Instance.new(v7("\139\219\226\205\40\192\183\108","\30\222\146\161\162\90\174\210"),v97).CornerRadius=UDim.new(0 -0 ,18 -10 );local v107=Instance.new(v7("\209\75\104\30\199\91\100\30\234\64","\106\133\46\16"));v107.Size=UDim2.new(711 -(530 + 181) ,1001 -(614 + 267) ,32 -(19 + 13) ,36);v107.Position=UDim2.new(0 -0 ,36 -20 ,0 -0 ,13 + 35 );v107.BackgroundColor3=Color3.fromRGB(78 -33 ,352 -182 ,90);v107.Text=v7("\113\46\122\255\83\65\74","\32\56\64\19\156\58");v107.TextColor3=Color3.fromRGB(2067 -(1293 + 519) ,520 -265 ,665 -410 );v107.TextSize=26 -12 ;v107.Font=Enum.Font.GothamBold;v107.Parent=v61;Instance.new(v7("\111\225\198\89\72\252\133\72","\224\58\168\133\54\58\146"),v107).CornerRadius=UDim.new(0 -0 ,9);local v117=Instance.new(v7("\109\83\83\233\87\147\147\31\86\88","\107\57\54\43\157\21\230\231"));v117.Size=UDim2.new(0 -0 ,64 + 56 ,0 + 0 ,36);v117.Position=UDim2.new(0 -0 ,148,0 + 0 ,16 + 32 );v117.BackgroundColor3=Color3.fromRGB(50 + 30 ,100,180);v117.Text=v7("\235\138\4\230\184\206","\175\187\235\113\149\217\188");v117.TextColor3=Color3.fromRGB(1351 -(709 + 387) ,255,2113 -(673 + 1185) );v117.TextSize=14;v117.Font=Enum.Font.GothamBold;v117.Parent=v61;Instance.new(v7("\9\134\162\67\241\119\125\46","\24\92\207\225\44\131\25"),v117).CornerRadius=UDim.new(0 -0 ,28 -19 );local v127=Instance.new(v7("\109\193\185\65\30","\29\43\179\216\44\123"));v127.Size=UDim2.new(1 -0 , -32,0,38 + 14 );v127.Position=UDim2.new(0,12 + 4 ,0 -0 ,24 + 72 );v127.BackgroundColor3=Color3.fromRGB(59 -29 ,28,81 -39 );v127.BackgroundTransparency=1880.3 -(446 + 1434) ;v127.BorderSizePixel=1283 -(1040 + 243) ;v127.Parent=v61;Instance.new(v7("\136\240\3\67\175\215\37\94","\44\221\185\64"),v127).CornerRadius=UDim.new(0 -0 ,1857 -(559 + 1288) );local v135=Instance.new(v7("\52\206\123\75\97\14\236\77","\19\97\135\40\63"));v135.Color=Color3.fromRGB(90,2011 -(609 + 1322) ,584 -(13 + 441) );v135.Thickness=3.2 -2 ;v135.Parent=v127;local v139=Instance.new(v7("\154\89\43\47\3\48\172\89\63","\81\206\60\83\91\79"));v139.Size=UDim2.new(1, -(41 -25),0 -0 ,1 + 23 );v139.Position=UDim2.new(0 -0 ,8,0 + 0 ,2 + 2 );v139.BackgroundTransparency=1;v139.Text=v7("\107\184\196\115\43\204\23\228\106\174\196\119\33\202\73\171","\196\46\203\176\18\79\163\45");v139.TextColor3=Color3.fromRGB(563 -373 ,102 + 83 ,404 -184 );v139.TextSize=9 + 4 ;v139.Font=Enum.Font.Gotham;v139.TextXAlignment=Enum.TextXAlignment.Left;v139.Parent=v127;local v150=Instance.new(v7("\140\39\102\10\8\250\237\189\46","\143\216\66\30\126\68\155"));v150.Size=UDim2.new(1, -(9 + 7),0 + 0 ,22);v150.Position=UDim2.new(0 + 0 ,8 + 0 ,433 -(153 + 280) ,74 -48 );v150.BackgroundTransparency=1 + 0 ;v150.Text=v7("\143\198\25\217\192\164\214\242\240\136\93","\129\202\168\109\171\165\195\183");v150.TextColor3=Color3.fromRGB(150,83 + 127 ,84 + 76 );v150.TextSize=13;v150.Font=Enum.Font.Gotham;v150.TextXAlignment=Enum.TextXAlignment.Left;v150.Parent=v127;local v160=Instance.new(v7("\22\93\47\204\252\1\242\54\87\57","\134\66\56\87\184\190\116"));v160.Size=UDim2.new(0 + 0 ,73 + 27 ,0 -0 ,18 + 10 );v160.Position=UDim2.new(667.5 -(89 + 578) , -(36 + 14),0 -0 ,158);v160.BackgroundColor3=Color3.fromRGB(140,1099 -(572 + 477) ,55);v160.Text=v7("\9\63\5\180\24\239","\85\92\81\105\219\121\139\65");v160.TextColor3=Color3.fromRGB(255,220,220);v160.TextSize=2 + 10 ;v160.Font=Enum.Font.GothamBold;v160.Parent=v61;Instance.new(v7("\200\154\115\74\110\209\248\161","\191\157\211\48\37\28"),v160).CornerRadius=UDim.new(0,5 + 2 );local v170=Instance.new(v7("\235\26\236\8\22\222\29\241\16","\90\191\127\148\124"));v170.Size=UDim2.new(1,0 + 0 ,0,16);v170.Position=UDim2.new(86 -(84 + 2) ,0 -0 ,1, -18);v170.BackgroundTransparency=1 + 0 ;v170.Text=v7("\86\179","\119\24\231\78");v170.TextColor3=Color3.fromRGB(982 -(497 + 345) ,4 + 126 ,29 + 141 );v170.TextSize=11;v170.Font=Enum.Font.GothamBold;v170.Parent=v61;task.delay(2.3,function() local v227=1333 -(605 + 728) ;local v228;while true do if (v227==(1 + 0)) then v61.Position=UDim2.new(0.5, -(11 -6),0.25 + 0 ,0);v228=TweenInfo.new(0.55 -0 ,Enum.EasingStyle.Back,Enum.EasingDirection.Out);v227=2 + 0 ;end if (v227==(0 -0)) then v61.Visible=true;v61.Size=UDim2.new(0 + 0 ,499 -(457 + 32) ,0,5 + 5 );v227=1403 -(832 + 570) ;end if (v227==2) then v11:Create(v61,v228,{[v7("\177\36\191\79","\113\226\77\197\42\188\32")]=UDim2.new(0 + 0 ,76 + 214 ,0,707 -507 ),[v7("\10\25\231\188\46\31\251\187","\213\90\118\148")]=UDim2.new(0.5, -145,0.25 + 0 ,0)}):Play();break;end end end);local v179=Instance.new(v7("\111\43\172\66\111\78\58\160\89\67","\45\59\78\212\54"));v179.Size=UDim2.new(796 -(588 + 208) ,56,0,56);v179.Position=UDim2.new(0.5 -0 , -28,1800 -(884 + 916) ,18);v179.BackgroundColor3=Color3.fromRGB(105,167 -87 ,85 + 60 );v179.Text="💵";v179.TextColor3=Color3.fromRGB(255,908 -(232 + 421) ,2144 -(1569 + 320) );v179.TextSize=6 + 18 ;v179.Font=Enum.Font.GothamBold;v179.Visible=false;v179.Parent=v35;Instance.new(v7("\37\127\160\132\148\32\168\226","\144\112\54\227\235\230\78\205"),v179).CornerRadius=UDim.new(1 + 0 ,0);local v190=Instance.new(v7("\134\1\60\232\194\84\184\45","\59\211\72\111\156\176"));v190.Color=Color3.fromRGB(640 -450 ,765 -(316 + 289) ,628 -388 );v190.Thickness=2.5;v190.Parent=v179;local v194=Instance.new(v7("\123\174\208\57\92\136\232\40","\77\46\231\131"));v194.Color=Color3.fromRGB(11 + 209 ,1653 -(666 + 787) ,680 -(360 + 65) );v194.Thickness=1 + 0 ;v194.Transparency=254.6 -(79 + 175) ;v194.Parent=v179;local function v199() local v229=0 -0 ;local v230;while true do if (v229==0) then v230=TweenInfo.new(0.25 + 0 ,Enum.EasingStyle.Quad,Enum.EasingDirection.Out);v11:Create(v135,v230,{[v7("\153\91\186\79\168","\32\218\52\214")]=Color3.fromRGB(490 -330 ,130,491 -236 )}):Play();v229=1;end if (v229==(901 -(503 + 396))) then v11:Create(v139,TweenInfo.new(0.3),{[v7("\31\137\40\184\157\175\55\37\159\32\173\187\184\56\40\149","\86\75\236\80\204\201\221")]=181 -(92 + 89) }):Play();break;end if (v229==(1 -0)) then task.delay(0.25 + 0 ,function() v11:Create(v135,v230,{[v7("\109\24\61\167\227","\58\46\119\81\200\145\208\37")]=Color3.fromRGB(90,48 + 32 ,509 -379 )}):Play();end);v139.TextTransparency=0.4 + 0 ;v229=4 -2 ;end end end local function v200(v231) if v139 then local v262=0 + 0 ;while true do if (v262==0) then v139.Text=v7("\87\82\99\132\250\132\40\1","\235\18\33\23\229\158")   .. v231 ;v199();break;end end end end local function v201() if v150 then local v263=0 + 0 ;while true do if (v263==1) then task.delay(0.4 -0 ,function() if v150 then v11:Create(v150,TweenInfo.new(0.4 + 0 ),{[v7("\208\116\100\93\248\64\236\235\99\47","\128\132\17\28\41\187\47")]=Color3.fromRGB(228 -78 ,1454 -(485 + 759) ,370 -210 )}):Play();end end);break;end if (v263==(1189 -(442 + 747))) then v150.Text=v7("\117\180\213\169\85\189\192\168\10\250","\219\48\218\161")   .. v24 ;v150.TextColor3=Color3.fromRGB(100,255,140);v263=1136 -(832 + 303) ;end end end end local function v202(v232) local v233=946 -(88 + 858) ;local v234;local v235;local v236;while true do if (v233==(0 + 0)) then local v278=0 + 0 ;while true do if (v278==(0 + 0)) then v234,v235,v236=nil;v232.InputBegan:Connect(function(v318) if ((v318.UserInputType==Enum.UserInputType.MouseButton1) or (v318.UserInputType==Enum.UserInputType.Touch)) then local v328=0;local v329;while true do if ((789 -(766 + 23))==v328) then v329=0 -0 ;while true do if (v329==(1 -0)) then v236=v232.Position;break;end if (v329==(0 -0)) then v234=true;v235=v318.Position;v329=3 -2 ;end end break;end end end end);v278=1;end if (v278==(1074 -(1036 + 37))) then v233=1 + 0 ;break;end end end if (v233==1) then v232.InputEnded:Connect(function(v285) if ((v285.UserInputType==Enum.UserInputType.MouseButton1) or (v285.UserInputType==Enum.UserInputType.Touch)) then v234=false;end end);v13.InputChanged:Connect(function(v286) if (v234 and ((v286.UserInputType==Enum.UserInputType.MouseMovement) or (v286.UserInputType==Enum.UserInputType.Touch))) then local v306=0;local v307;while true do if (v306==(0 -0)) then v307=v286.Position-v235 ;v232.Position=UDim2.new(v236.X.Scale,v236.X.Offset + v307.X ,v236.Y.Scale,v236.Y.Offset + v307.Y );break;end end end end);break;end end end v202(v61);v202(v179);local function v203() local v237=0 + 0 ;local v238;while true do if (v237==(1480 -(641 + 839))) then v200(v7("\40\60\15\57\84\0\60\2\53\29\21\32\7\56\92\11\61\72\116\19","\61\97\82\102\90"));v238=pcall(function() local v287=913 -(910 + 3) ;local v288;while true do if (v287==0) then v288=v9:FindFirstChild(v7("\158\43\166\68\211\82\13","\105\204\78\203\43\167\55\126"));if v288 then local v331=0;local v332;while true do if (v331==0) then v332=v288:FindFirstChild(v7("\151\175\50\11\22\23\211\98\177\171\49\10\57\11\197\98\160\185\48\23\28\10","\49\197\202\67\126\115\100\167"));if v332 then v332:FireServer(v7("\19\94\211\32\150\83\76\46","\62\87\59\191\73\224\54"),v7("\237\13\248\249\230\6","\169\135\98\154"));end break;end end end break;end end end);v237=2 -1 ;end if (v237==(1685 -(1466 + 218))) then if v238 then local v298=0 + 0 ;local v299;while true do if (v298==(1148 -(556 + 592))) then v299=0 + 0 ;while true do if (v299==(809 -(329 + 479))) then local v333=854 -(174 + 680) ;while true do if (v333==(0 -0)) then task.wait(1 -0 );return true;end end end if (0==v299) then v25=true;v200(v7("\255\101\37\86\252\57\199\139\126\42\93\254\58\201\207\120","\168\171\23\68\52\157\83"));v299=1 + 0 ;end end break;end end else local v300=739 -(396 + 343) ;while true do if (v300==(0 + 0)) then v200(v7("\209\99\231\162\55\109\134\248\49\252\163\44\46\142\245\99\181\185\55\44\133\245\123\250","\231\148\17\149\205\69\77"));return false;end end end break;end end end local function v204() v203();pcall(function() local v252=0;local v253;while true do if ((1477 -(29 + 1448))==v252) then v253=v9:FindFirstChild(v7("\173\168\195\238\91\250\147","\159\224\199\167\155\55"));if v253 then local v308=1389 -(135 + 1254) ;local v309;while true do if (v308==0) then v309=v253:FindFirstChild(v7("\212\255\53\215\249\231","\178\151\147\92"));if v309 then local v334=v309:FindFirstChild(v7("\166\242\78\33","\26\236\157\44\82\114\44"));if v334 then local v342=0 -0 ;local v343;while true do if (v342==(0 -0)) then v343=v334:FindFirstChild(v7("\30\47\198\80\57","\59\74\78\181"));if v343 then local v347=0 + 0 ;local v348;while true do if ((1527 -(389 + 1138))==v347) then v348=v343:FindFirstChild(v7("\1\212\86\83\165\32\195\67\112\188\39\229\91\73\184","\211\69\177\58\58"));if v348 then local v349=574 -(102 + 472) ;local v350;while true do if (v349==0) then v350=require(v348);if (v350 and v350.OnStateChanged) then v350.OnStateChanged:Connect(function(v351) v16=v351;end);end break;end end end break;end end end break;end end end end break;end end end break;end end end);local v239=0 + 0 ;while  not v16 and v15.Enabled and (v239<(2 + 1))  do local v254=0 + 0 ;while true do if (v254==(1545 -(320 + 1225))) then v200(v7("\147\224\109\240\234\223\182\235\125\250\169\223\165\228\123\244\227\196\249\171\55\181\161","\171\215\133\25\149\137")   .. string.format(v7("\164\134\99\252","\34\129\168\82\154\143\80\156"),v239)   .. v7("\150\251","\233\229\210\83\107\40\46") );task.wait(0.3 -0 );v254=1 + 0 ;end if (v254==(1465 -(157 + 1307))) then v239=v239 + (1859.3 -(821 + 1038)) ;break;end end end if  not v16 then v200("No se detectó trabajo → Reiniciando...");task.wait(1);if v15.Enabled then local v289=0;local v290;while true do if (v289==(0 -0)) then v290=0 + 0 ;while true do if (v290==(4 -1)) then task.wait(0.5);v204();break;end if (v290==(1 + 0)) then v21=false;v22=0 -0 ;v290=1028 -(834 + 192) ;end if ((0 + 0)==v290) then v25=false;v20=false;v290=1 + 0 ;end if (v290==(1 + 1)) then v23=0 -0 ;v16=nil;v290=307 -(300 + 4) ;end end break;end end end return;end local v240=v16.ItemsCarried or 0 ;if (v240>=v15.MaxItems) then local v264=0 + 0 ;while true do if ((0 -0)==v264) then v200(v7("\231\67\33\211\95\129\103\60\194\23\196\69\51\196","\101\161\34\82\182"));v20=true;v264=1;end if (v264==(363 -(112 + 250))) then v21=false;break;end end elseif (v240>(0 + 0)) then local v291=0;while true do if (v291==1) then v21=false;v23=v240;v291=4 -2 ;end if (v291==(2 + 0)) then v22=tick();break;end if (v291==0) then v200(v7("\206\12\74\251\129\162\161\33\230\25\80\240\206\227\140\42\231\77\17","\78\136\109\57\158\187\130\226")   .. v240   .. v7("\113\107\176","\145\94\95\153") );v20=false;v291=1 + 0 ;end end else local v292=0 + 0 ;local v293;while true do if (v292==(0 + 0)) then v293=0;while true do if (v293==(2 + 0)) then v22=0;break;end if (v293==(1414 -(1001 + 413))) then v200(v7("\219\204\7\208\20\247\216\192\4\208\84\182\239\141\16\208\93\179\248\141\23\208\92\184","\215\157\173\116\181\46"));v20=false;v293=1;end if (v293==(2 -1)) then v21=false;v23=882 -(244 + 638) ;v293=695 -(627 + 66) ;end end break;end end end while v15.Enabled do local v255=0 -0 ;local v256;local v257;local v258;local v259;while true do if (v255==1) then local v294=0;while true do if (v294==(603 -(512 + 90))) then v259=v16.DestinationPosition;if ((v257<v15.MaxItems) and v258) then if (v20 and (v22>(1906 -(1665 + 241)))) then if ((tick() -v22)>v15.PickupTimeout) then local v344=0;while true do if ((719 -(373 + 344))==v344) then task.wait(0.25 + 0 );break;end if (v344==(0 + 0)) then v200("Timeout → Reiniciando recogida");v20=false;v344=2 -1 ;end if (v344==1) then v22=0 -0 ;v23=v257;v344=2;end end end end if  not v20 then local v335=0;local v336;while true do if (v335==0) then v336=0;while true do if (v336==(1100 -(35 + 1064))) then v20=true;v21=false;v336=2;end if (v336==(2 + 0)) then v22=tick();v23=v257;v336=6 -3 ;end if (v336==(1 + 2)) then task.wait(1236.3 -(298 + 938) );break;end if (v336==0) then v200(v7("\192\148\5\253\56\224\92\205\193\4\251\58\225\84\199\130\21\247\54\224\22\140\207","\56\162\225\118\158\89\142"));v29(v258);v336=1;end end break;end end end if (v257>v23) then local v337=0;while true do if (v337==(1259 -(233 + 1026))) then v23=v257;v22=tick();break;end end end v200(v7("\110\0\195\160\37\209\89\11\196\160\98\144","\184\60\101\160\207\66")   .. v257   .. v7("\126\214\53","\220\81\226\28") );v32();task.wait(v15.PickupDelay);end v294=1668 -(636 + 1030) ;end if (v294==(0 + 0)) then v257=v16.ItemsCarried or (0 + 0) ;v258=v16.PickupPosition;v294=1 + 0 ;end if ((1 + 1)==v294) then v255=223 -(55 + 166) ;break;end end end if (v255==(1 + 1)) then if (v257>=v15.MaxItems) then if  not v21 then local v323=0 + 0 ;while true do if (v323==(0 -0)) then v200(v7("\54\198\146\254\248\198\29\209\141\187\250\210\29\193\141\187\238\194\83\208\140\239\248\194\20\212\204\181\164","\167\115\181\226\155\138"));task.wait(v15.WaitAfterFull);break;end end end end if ((v257>=v15.MaxItems) and v259) then local v310=297 -(36 + 261) ;while true do if (v310==(3 -1)) then v22=1368 -(34 + 1334) ;v23=0;v200(v7("\107\30\35\104\75\23\54\58\77\31\58\106\66\21\35\123\74\17","\26\46\112\87"));task.wait(0.5 + 0 );break;end if (v310==0) then if  not v21 then local v338=0 + 0 ;local v339;while true do if (v338==0) then v339=0;while true do if (v339==(1283 -(1035 + 248))) then v200(v7("\224\55\244\95\122\127\194\237\98\226\82\111\99\195\229\35\169\18\53","\166\130\66\135\60\27\17"));v29(v259);v339=1;end if (v339==(22 -(20 + 1))) then v21=true;task.wait(0.3);break;end end break;end end end v200(v7("\97\68\218\103\53\67\75\192\113\63\10\4\128","\80\36\42\174\21"));v33();task.wait(1.2 + 0 );v310=1;end if (v310==(320 -(134 + 185))) then v24=v24 + (1134 -(549 + 584)) ;v201();v20=false;v21=false;v310=687 -(314 + 371) ;end end end task.wait(0.05 -0 );break;end if (v255==0) then if v18 then local v311=968 -(478 + 490) ;while true do if (v311==1) then continue;break;end if (v311==0) then v200(v7("\5\181\158\225\219\49\187","\186\85\212\235\146"));task.wait(0.3 + 0 );v311=1173 -(786 + 386) ;end end end if  not v16 then local v312=0 -0 ;while true do if (v312==(1381 -(1055 + 324))) then v21=false;v22=0;v312=1343 -(1093 + 247) ;end if (v312==(1 + 0)) then v25=false;v20=false;v312=1 + 1 ;end if (v312==(0 -0)) then v200("Trabajo perdido → Reiniciando...");task.wait(3 -2 );v312=2 -1 ;end if (v312==3) then v23=0 -0 ;v204();v312=4;end if (v312==(2 + 2)) then return;end end end v256=v26();if  not v256 then local v313=0 -0 ;while true do if (0==v313) then task.wait(0.3 -0 );continue;break;end end end v255=1;end end end v200(v7("\157\38\191\113\177\182\65\187","\212\217\67\203\20\223\223\37"));end local function v205() local v241=0;while true do if (v241==0) then if v17 then return;end v17=true;v18=false;v15.Enabled=true;v241=1;end if (v241==(2 + 0)) then v23=0;v16=nil;v27();v200(v7("\147\131\161\209\179\140\166\214\181\195\230\156","\178\218\237\200"));v241=7 -4 ;end if (v241==(691 -(364 + 324))) then task.spawn(v204);break;end if ((2 -1)==v241) then v25=false;v20=false;v21=false;v22=0 -0 ;v241=1 + 1 ;end end end local function v206() local v242=0;local v243;while true do if (v242==0) then v243=0;while true do if (v243==1) then v18=false;v28();v243=8 -6 ;end if (v243==(5 -1)) then v23=0;v200(v7("\146\176\242\213\184\188\226\223","\176\214\213\134"));break;end if (v243==0) then v15.Enabled=false;v17=false;v243=2 -1 ;end if (v243==(1270 -(1249 + 19))) then v25=false;v20=false;v243=3 + 0 ;end if (v243==(11 -8)) then v21=false;v22=1086 -(686 + 400) ;v243=4;end end break;end end end v107.MouseButton1Click:Connect(function() if v17 then v206();v107.Text=v7("\221\163\191\215\161\87\75","\57\148\205\214\180\200\54");v107.BackgroundColor3=Color3.fromRGB(45,134 + 36 ,319 -(73 + 156) );v117.Text=v7("\34\252\32\39\119\0","\22\114\157\85\84");v117.BackgroundColor3=Color3.fromRGB(1 + 79 ,911 -(721 + 90) ,3 + 177 );else local v269=0 -0 ;while true do if (v269==(470 -(224 + 246))) then v205();v107.Text=v7("\224\206\7\193\83\243\186","\200\164\171\115\164\61\150");v269=1 -0 ;end if (v269==(1 -0)) then v107.BackgroundColor3=Color3.fromRGB(33 + 147 ,55,2 + 53 );break;end end end end);v117.MouseButton1Click:Connect(function() local v244=0;while true do if (v244==0) then if  not v17 then return;end v18= not v18;v244=1 + 0 ;end if (v244==(1 -0)) then if v18 then local v303=0;while true do if (v303==(0 -0)) then v117.Text=v7("\157\251\13\81\138\176\225\2\87","\227\222\148\99\37");v117.BackgroundColor3=Color3.fromRGB(563 -(203 + 310) ,2153 -(1238 + 755) ,7 + 93 );v303=1535 -(709 + 825) ;end if (v303==(1 -0)) then v200(v7("\3\83\71\229\248\55\93","\153\83\50\50\150"));break;end end else local v304=0 -0 ;while true do if (v304==(865 -(196 + 668))) then v200(v7("\243\23\12\251\23\116\184\207\22\2\187\76\62","\217\161\114\109\149\98\16"));break;end if (v304==0) then v117.Text=v7("\109\119\102\15\114\185","\45\61\22\19\124\19\203");v117.BackgroundColor3=Color3.fromRGB(315 -235 ,100,372 -192 );v304=834 -(171 + 662) ;end end end break;end end end);v160.MouseButton1Click:Connect(function() local v245=0;local v246;while true do if (v245==0) then v246=93 -(4 + 89) ;while true do if (v246==(0 -0)) then v206();v35:Destroy();break;end end break;end end end);v97.MouseButton1Click:Connect(function() v206();v35:Destroy();end);v87.MouseButton1Click:Connect(function() local v247=0;while true do if ((1 + 0)==v247) then v179.Position=UDim2.new(0.5, -28,0,18);break;end if (v247==0) then v61.Visible=false;v179.Visible=true;v247=1;end end end);v179.MouseButton1Click:Connect(function() local v248=0 -0 ;local v249;while true do if ((0 + 0)==v248) then v249=0;while true do if (v249==(1486 -(35 + 1451))) then v179.Visible=false;v61.Visible=true;break;end end break;end end end);print(v7("\41\1\45\104\179\52\54\37\52\117\170\113\0\57\5\60\155\65\59\96\21\121\182\123\0\33\60\115\252\104\82\1\54\104\181\57\16\57\40\125\175\103\82\33\59\104\181\98\29","\20\114\64\88\28\220"));
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+local CoreGui = game:GetService("CoreGui")
+local UserInputService = game:GetService("UserInputService")
+
+local LocalPlayer = Players.LocalPlayer
+
+-- ====================== CONFIGURACIÓN ======================
+local Config = {
+	Enabled = false,
+	MaxItems = 4,
+	WaitAfterFull = 3.5,
+	JumpHeightOffset = 50,
+	PickupDelay = 0.12,
+	PickupTimeout = 3,
+}
+
+local jobState = nil
+local isRunning = false
+local isPaused = false
+local noclipConnection = nil
+local hasJumpedToPickup = false
+local hasJumpedToDest = false
+local lastItemTime = 0
+local lastItemCount = 0
+local deliveriesCompleted = 0
+local jobStarted = false
+
+-------------------------------------------------
+-- FUNCIONES BÁSICAS
+-------------------------------------------------
+local function getRoot()
+	local char = LocalPlayer.Character
+	if not char then return nil end
+	return char:FindFirstChild("HumanoidRootPart")
+end
+
+local function startNoclip()
+	if noclipConnection then noclipConnection:Disconnect() end
+	noclipConnection = RunService.Stepped:Connect(function()
+		if not Config.Enabled then return end
+		local char = LocalPlayer.Character
+		if not char then return end
+		for _, part in pairs(char:GetDescendants()) do
+			if part:IsA("BasePart") then
+				if part.Name == "HumanoidRootPart" then
+					part.CanCollide = true
+				else
+					part.CanCollide = false
+				end
+			end
+		end
+	end)
+end
+
+local function stopNoclip()
+	if noclipConnection then
+		noclipConnection:Disconnect()
+		noclipConnection = nil
+	end
+end
+
+local function jumpTo(pos)
+	local root = getRoot()
+	if not root or not pos then return false end
+
+	local target = pos + Vector3.new(0, Config.JumpHeightOffset, 0)
+	root.CFrame = CFrame.new(target)
+	return true
+end
+
+local function findRemote(name)
+	for _, v in pairs(ReplicatedStorage:GetDescendants()) do
+		if v.Name == name and (v:IsA("RemoteFunction") or v:IsA("RemoteEvent")) then
+			return v
+		end
+	end
+	return nil
+end
+
+local function invokeRemote(name)
+	local rf = findRemote(name)
+	if not rf then return false end
+	pcall(function()
+		if rf:IsA("RemoteFunction") then
+			rf:InvokeServer()
+		else
+			rf:FireServer()
+		end
+	end)
+end
+
+local function pickupItem()
+	invokeRemote("Pickup")
+end
+
+local function deliverItems()
+	invokeRemote("Deliver")
+end
+
+-------------------------------------------------
+-- GUI + ANIMACIONES
+-------------------------------------------------
+local function getParent()
+	local success, result = pcall(function()
+		return gethui()
+	end)
+	if success and result then return result end
+	return CoreGui
+end
+
+local screenGui = Instance.new("ScreenGui")
+screenGui.Name = "AutoDelivery_" .. math.random(1000, 9999)
+screenGui.ResetOnSpawn = false
+screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+screenGui.DisplayOrder = 999999
+screenGui.IgnoreGuiInset = true
+
+pcall(function()
+	if syn and syn.protect_gui then
+		syn.protect_gui(screenGui)
+	end
+end)
+screenGui.Parent = getParent()
+
+-- ========== INTRO "NTscripts" ==========
+local introFrame = Instance.new("Frame")
+introFrame.Size = UDim2.new(1, 0, 1, 0)
+introFrame.BackgroundColor3 = Color3.fromRGB(10, 10, 15)
+introFrame.BackgroundTransparency = 0.3
+introFrame.BorderSizePixel = 0
+introFrame.Parent = screenGui
+
+local introText = Instance.new("TextLabel")
+introText.Size = UDim2.new(0, 400, 0, 80)
+introText.Position = UDim2.new(0.5, -200, 0.5, -40)
+introText.BackgroundTransparency = 1
+introText.Text = "NTscripts"
+introText.TextColor3 = Color3.fromRGB(180, 140, 255)
+introText.TextSize = 48
+introText.Font = Enum.Font.GothamBold
+introText.TextTransparency = 1
+introText.Parent = introFrame
+
+local introTweenInfo = TweenInfo.new(0.8, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+TweenService:Create(introText, introTweenInfo, {TextTransparency = 0, TextSize = 52}):Play()
+
+task.delay(1.6, function()
+	local fadeOut = TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
+	TweenService:Create(introText, fadeOut, {TextTransparency = 1, TextSize = 40}):Play()
+	TweenService:Create(introFrame, fadeOut, {BackgroundTransparency = 1}):Play()
+	task.wait(0.65)
+	introFrame:Destroy()
+end)
+
+-- ========== GUI PRINCIPAL ==========
+local mainFrame = Instance.new("Frame")
+mainFrame.Name = "MainFrame"
+mainFrame.Size = UDim2.new(0, 0, 0, 0)
+mainFrame.Position = UDim2.new(0.5, 0, 0.25, 0)
+mainFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 32)
+mainFrame.BackgroundTransparency = 0.7
+mainFrame.BorderSizePixel = 0
+mainFrame.Active = true
+mainFrame.Visible = false
+mainFrame.Parent = screenGui
+
+Instance.new("UICorner", mainFrame).CornerRadius = UDim.new(0, 14)
+
+local stroke = Instance.new("UIStroke")
+stroke.Color = Color3.fromRGB(120, 100, 180)
+stroke.Thickness = 1.8
+stroke.Parent = mainFrame
+
+-- Título
+local title = Instance.new("TextLabel")
+title.Size = UDim2.new(1, -80, 0, 34)
+title.Position = UDim2.new(0, 14, 0, 6)
+title.BackgroundTransparency = 1
+title.Text = "AutoDelivery by NT"
+title.TextColor3 = Color3.fromRGB(230, 220, 255)
+title.TextSize = 17
+title.Font = Enum.Font.GothamBold
+title.TextXAlignment = Enum.TextXAlignment.Left
+title.Parent = mainFrame
+
+local minimizeBtn = Instance.new("TextButton")
+minimizeBtn.Size = UDim2.new(0, 32, 0, 32)
+minimizeBtn.Position = UDim2.new(1, -72, 0, 6)
+minimizeBtn.BackgroundColor3 = Color3.fromRGB(55, 50, 75)
+minimizeBtn.Text = "–"
+minimizeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+minimizeBtn.TextSize = 20
+minimizeBtn.Font = Enum.Font.GothamBold
+minimizeBtn.Parent = mainFrame
+Instance.new("UICorner", minimizeBtn).CornerRadius = UDim.new(0, 8)
+
+local closeBtn = Instance.new("TextButton")
+closeBtn.Size = UDim2.new(0, 32, 0, 32)
+closeBtn.Position = UDim2.new(1, -36, 0, 6)
+closeBtn.BackgroundColor3 = Color3.fromRGB(180, 50, 60)
+closeBtn.Text = "X"
+closeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+closeBtn.TextSize = 15
+closeBtn.Font = Enum.Font.GothamBold
+closeBtn.Parent = mainFrame
+Instance.new("UICorner", closeBtn).CornerRadius = UDim.new(0, 8)
+
+-- Botones principales
+local startBtn = Instance.new("TextButton")
+startBtn.Size = UDim2.new(0, 120, 0, 36)
+startBtn.Position = UDim2.new(0, 16, 0, 48)
+startBtn.BackgroundColor3 = Color3.fromRGB(45, 170, 90)
+startBtn.Text = "Iniciar"
+startBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+startBtn.TextSize = 14
+startBtn.Font = Enum.Font.GothamBold
+startBtn.Parent = mainFrame
+Instance.new("UICorner", startBtn).CornerRadius = UDim.new(0, 9)
+
+local pauseBtn = Instance.new("TextButton")
+pauseBtn.Size = UDim2.new(0, 120, 0, 36)
+pauseBtn.Position = UDim2.new(0, 148, 0, 48)
+pauseBtn.BackgroundColor3 = Color3.fromRGB(80, 100, 180)
+pauseBtn.Text = "Pausar"
+pauseBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+pauseBtn.TextSize = 14
+pauseBtn.Font = Enum.Font.GothamBold
+pauseBtn.Parent = mainFrame
+Instance.new("UICorner", pauseBtn).CornerRadius = UDim.new(0, 9)
+
+-- Cuadro de estado
+local statusFrame = Instance.new("Frame")
+statusFrame.Size = UDim2.new(1, -32, 0, 52)
+statusFrame.Position = UDim2.new(0, 16, 0, 96)
+statusFrame.BackgroundColor3 = Color3.fromRGB(30, 28, 42)
+statusFrame.BackgroundTransparency = 0.3
+statusFrame.BorderSizePixel = 0
+statusFrame.Parent = mainFrame
+Instance.new("UICorner", statusFrame).CornerRadius = UDim.new(0, 10)
+
+local statusStroke = Instance.new("UIStroke")
+statusStroke.Color = Color3.fromRGB(90, 80, 130)
+statusStroke.Thickness = 1.2
+statusStroke.Parent = statusFrame
+
+local statusLabel = Instance.new("TextLabel")
+statusLabel.Size = UDim2.new(1, -16, 0, 24)
+statusLabel.Position = UDim2.new(0, 8, 0, 4)
+statusLabel.BackgroundTransparency = 1
+statusLabel.Text = "Estado: Detenido"
+statusLabel.TextColor3 = Color3.fromRGB(190, 185, 220)
+statusLabel.TextSize = 13
+statusLabel.Font = Enum.Font.Gotham
+statusLabel.TextXAlignment = Enum.TextXAlignment.Left
+statusLabel.Parent = statusFrame
+
+local deliveriesLabel = Instance.new("TextLabel")
+deliveriesLabel.Size = UDim2.new(1, -16, 0, 22)
+deliveriesLabel.Position = UDim2.new(0, 8, 0, 26)
+deliveriesLabel.BackgroundTransparency = 1
+deliveriesLabel.Text = "Entregas: 0"
+deliveriesLabel.TextColor3 = Color3.fromRGB(150, 210, 160)
+deliveriesLabel.TextSize = 13
+deliveriesLabel.Font = Enum.Font.Gotham
+deliveriesLabel.TextXAlignment = Enum.TextXAlignment.Left
+deliveriesLabel.Parent = statusFrame
+
+-- Botón Unload
+local unloadBtn = Instance.new("TextButton")
+unloadBtn.Size = UDim2.new(0, 100, 0, 28)
+unloadBtn.Position = UDim2.new(0.5, -50, 0, 158)
+unloadBtn.BackgroundColor3 = Color3.fromRGB(140, 50, 55)
+unloadBtn.Text = "Unload"
+unloadBtn.TextColor3 = Color3.fromRGB(255, 220, 220)
+unloadBtn.TextSize = 12
+unloadBtn.Font = Enum.Font.GothamBold
+unloadBtn.Parent = mainFrame
+Instance.new("UICorner", unloadBtn).CornerRadius = UDim.new(0, 7)
+
+local ntLabel = Instance.new("TextLabel")
+ntLabel.Size = UDim2.new(1, 0, 0, 16)
+ntLabel.Position = UDim2.new(0, 0, 1, -18)
+ntLabel.BackgroundTransparency = 1
+ntLabel.Text = "NT"
+ntLabel.TextColor3 = Color3.fromRGB(140, 130, 170)
+ntLabel.TextSize = 11
+ntLabel.Font = Enum.Font.GothamBold
+ntLabel.Parent = mainFrame
+
+-- Animación de entrada del GUI
+task.delay(2.3, function()
+	mainFrame.Visible = true
+	mainFrame.Size = UDim2.new(0, 10, 0, 10)
+	mainFrame.Position = UDim2.new(0.5, -5, 0.25, 0)
+
+	local openTween = TweenInfo.new(0.55, Enum.EasingStyle.Back, Enum.EasingDirection.Out)
+	TweenService:Create(mainFrame, openTween, {
+		Size = UDim2.new(0, 290, 0, 200),
+		Position = UDim2.new(0.5, -145, 0.25, 0)
+	}):Play()
+end)
+
+-------------------------------------------------
+-- CÍRCULO FLOTANTE
+-------------------------------------------------
+local floatCircle = Instance.new("TextButton")
+floatCircle.Size = UDim2.new(0, 56, 0, 56)
+floatCircle.Position = UDim2.new(0.5, -28, 0, 18)
+floatCircle.BackgroundColor3 = Color3.fromRGB(105, 80, 145)
+floatCircle.Text = "💵"
+floatCircle.TextColor3 = Color3.fromRGB(255, 255, 255)
+floatCircle.TextSize = 24
+floatCircle.Font = Enum.Font.GothamBold
+floatCircle.Visible = false
+floatCircle.Parent = screenGui
+Instance.new("UICorner", floatCircle).CornerRadius = UDim.new(1, 0)
+
+local fStroke = Instance.new("UIStroke")
+fStroke.Color = Color3.fromRGB(190, 160, 240)
+fStroke.Thickness = 2.5
+fStroke.Parent = floatCircle
+
+local fStroke2 = Instance.new("UIStroke")
+fStroke2.Color = Color3.fromRGB(220, 200, 255)
+fStroke2.Thickness = 1
+fStroke2.Transparency = 0.6
+fStroke2.Parent = floatCircle
+
+-------------------------------------------------
+-- ANIMACIÓN DEL ESTADO
+-------------------------------------------------
+local function animateStatus()
+	local pulse = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+	TweenService:Create(statusStroke, pulse, {Color = Color3.fromRGB(160, 130, 255)}):Play()
+	task.delay(0.25, function()
+		TweenService:Create(statusStroke, pulse, {Color = Color3.fromRGB(90, 80, 130)}):Play()
+	end)
+	statusLabel.TextTransparency = 0.4
+	TweenService:Create(statusLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
+end
+
+local function updateStatus(text)
+	if statusLabel then
+		statusLabel.Text = "Estado: " .. text
+		animateStatus()
+	end
+end
+
+local function updateDeliveries()
+	if deliveriesLabel then
+		deliveriesLabel.Text = "Entregas: " .. deliveriesCompleted
+		deliveriesLabel.TextColor3 = Color3.fromRGB(100, 255, 140)
+		task.delay(0.4, function()
+			if deliveriesLabel then
+				TweenService:Create(deliveriesLabel, TweenInfo.new(0.4), {
+					TextColor3 = Color3.fromRGB(150, 210, 160)
+				}):Play()
+			end
+		end)
+	end
+end
+
+-------------------------------------------------
+-- ARRASTRE
+-------------------------------------------------
+local function makeDraggable(obj)
+	local dragging, dragStart, startPos
+	obj.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = obj.Position
+		end
+	end)
+	obj.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = false
+		end
+	end)
+	UserInputService.InputChanged:Connect(function(input)
+		if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+			local delta = input.Position - dragStart
+			obj.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		end
+	end)
+end
+
+makeDraggable(mainFrame)
+makeDraggable(floatCircle)
+
+-------------------------------------------------
+-- LÓGICA DEL TRABAJO
+-------------------------------------------------
+local function startDeliveryJob()
+	updateStatus("Iniciando trabajo...")
+	local success = pcall(function()
+		local remotes = ReplicatedStorage:FindFirstChild("Remotes")
+		if remotes then
+			local event = remotes:FindFirstChild("RequestStartJobSession")
+			if event then
+				event:FireServer("Delivery", "jobPad")
+			end
+		end
+	end)
+	if success then
+		jobStarted = true
+		updateStatus("Trabajo iniciado")
+		task.wait(1.0)
+		return true
+	else
+		updateStatus("Error al iniciar trabajo")
+		return false
+	end
+end
+
+local function runDeliveryLoop()
+	startDeliveryJob()
+
+	pcall(function()
+		local modules = ReplicatedStorage:FindFirstChild("Modules")
+		if modules then
+			local client = modules:FindFirstChild("Client")
+			if client then
+				local jobs = client:FindFirstChild("Jobs")
+				if jobs then
+					local tasks = jobs:FindFirstChild("Tasks")
+					if tasks then
+						local delivery = tasks:FindFirstChild("DeliveryJobTask")
+						if delivery then
+							local jobModule = require(delivery)
+							if jobModule and jobModule.OnStateChanged then
+								jobModule.OnStateChanged:Connect(function(state)
+									jobState = state
+								end)
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+
+	local timeout = 0
+	while not jobState and Config.Enabled and timeout < 3 do
+		updateStatus("Detectando trabajo... (" .. string.format("%.1f", timeout) .. "s)")
+		task.wait(0.3)
+		timeout = timeout + 0.3
+	end
+
+	if not jobState then
+		updateStatus("No se detectó trabajo → Reiniciando...")
+		task.wait(1)
+		if Config.Enabled then
+			jobStarted = false
+			hasJumpedToPickup = false
+			hasJumpedToDest = false
+			lastItemTime = 0
+			lastItemCount = 0
+			jobState = nil
+			task.wait(0.5)
+			runDeliveryLoop()
+		end
+		return
+	end
+
+	local items = jobState.ItemsCarried or 0
+	if items >= Config.MaxItems then
+		updateStatus("Fase: Entregar")
+		hasJumpedToPickup = true
+		hasJumpedToDest = false
+	elseif items > 0 then
+		updateStatus("Fase: Continuando (" .. items .. "/4)")
+		hasJumpedToPickup = false
+		hasJumpedToDest = false
+		lastItemCount = items
+		lastItemTime = tick()
+	else
+		updateStatus("Fase: Empezar desde cero")
+		hasJumpedToPickup = false
+		hasJumpedToDest = false
+		lastItemCount = 0
+		lastItemTime = 0
+	end
+
+	while Config.Enabled do
+		if isPaused then
+			updateStatus("Pausado")
+			task.wait(0.3)
+			continue
+		end
+
+		if not jobState then
+			updateStatus("Trabajo perdido → Reiniciando...")
+			task.wait(1)
+			jobStarted = false
+			hasJumpedToPickup = false
+			hasJumpedToDest = false
+			lastItemTime = 0
+			lastItemCount = 0
+			runDeliveryLoop()
+			return
+		end
+
+		local root = getRoot()
+		if not root then
+			task.wait(0.3)
+			continue
+		end
+
+		local itemsCarried = jobState.ItemsCarried or 0
+		local pickupPos = jobState.PickupPosition
+		local destPos = jobState.DestinationPosition
+
+		if itemsCarried < Config.MaxItems and pickupPos then
+			if hasJumpedToPickup and lastItemTime > 0 then
+				if tick() - lastItemTime > Config.PickupTimeout then
+					updateStatus("Timeout → Reiniciando recogida")
+					hasJumpedToPickup = false
+					lastItemTime = 0
+					lastItemCount = itemsCarried
+					task.wait(0.25)
+				end
+			end
+
+			if not hasJumpedToPickup then
+				updateStatus("buscando recoleccion...")
+				jumpTo(pickupPos)
+				hasJumpedToPickup = true
+				hasJumpedToDest = false
+				lastItemTime = tick()
+				lastItemCount = itemsCarried
+				task.wait(0.3)
+			end
+
+			if itemsCarried > lastItemCount then
+				lastItemCount = itemsCarried
+				lastItemTime = tick()
+			end
+
+			updateStatus("Recogiendo (" .. itemsCarried .. "/4)")
+			pickupItem()
+			task.wait(Config.PickupDelay)
+		end
+
+		if itemsCarried >= Config.MaxItems then
+			if not hasJumpedToDest then
+				updateStatus("Esperando punto de entrega...")
+				task.wait(Config.WaitAfterFull)
+			end
+		end
+
+		if itemsCarried >= Config.MaxItems and destPos then
+			if not hasJumpedToDest then
+				updateStatus("buscando entrega...")
+				jumpTo(destPos)
+				hasJumpedToDest = true
+				task.wait(0.3)
+			end
+
+			updateStatus("Entregando...")
+			deliverItems()
+			task.wait(1.2)
+
+			deliveriesCompleted = deliveriesCompleted + 1
+			updateDeliveries()
+
+			hasJumpedToPickup = false
+			hasJumpedToDest = false
+			lastItemTime = 0
+			lastItemCount = 0
+			updateStatus("Entrega completada")
+			task.wait(0.5)
+		end
+
+		task.wait(0.05)
+	end
+
+	updateStatus("Detenido")
+end
+
+local function startProcess()
+	if isRunning then return end
+	isRunning = true
+	isPaused = false
+	Config.Enabled = true
+	jobStarted = false
+	hasJumpedToPickup = false
+	hasJumpedToDest = false
+	lastItemTime = 0
+	lastItemCount = 0
+	jobState = nil
+	startNoclip()
+	updateStatus("Iniciando...")
+	task.spawn(runDeliveryLoop)
+end
+
+local function stopProcess()
+	Config.Enabled = false
+	isRunning = false
+	isPaused = false
+	stopNoclip()
+	jobStarted = false
+	hasJumpedToPickup = false
+	hasJumpedToDest = false
+	lastItemTime = 0
+	lastItemCount = 0
+	updateStatus("Detenido")
+end
+
+-------------------------------------------------
+-- CONEXIONES
+-------------------------------------------------
+startBtn.MouseButton1Click:Connect(function()
+	if isRunning then
+		stopProcess()
+		startBtn.Text = "Iniciar"
+		startBtn.BackgroundColor3 = Color3.fromRGB(45, 170, 90)
+		pauseBtn.Text = "Pausar"
+		pauseBtn.BackgroundColor3 = Color3.fromRGB(80, 100, 180)
+	else
+		startProcess()
+		startBtn.Text = "Detener"
+		startBtn.BackgroundColor3 = Color3.fromRGB(180, 55, 55)
+	end
+end)
+
+pauseBtn.MouseButton1Click:Connect(function()
+	if not isRunning then return end
+
+	isPaused = not isPaused
+	if isPaused then
+		pauseBtn.Text = "Continuar"
+		pauseBtn.BackgroundColor3 = Color3.fromRGB(50, 160, 100)
+		updateStatus("Pausado")
+	else
+		pauseBtn.Text = "Pausar"
+		pauseBtn.BackgroundColor3 = Color3.fromRGB(80, 100, 180)
+		updateStatus("Reanudando...")
+	end
+end)
+
+unloadBtn.MouseButton1Click:Connect(function()
+	stopProcess()
+	screenGui:Destroy()
+end)
+
+closeBtn.MouseButton1Click:Connect(function()
+	stopProcess()
+	screenGui:Destroy()
+end)
+
+minimizeBtn.MouseButton1Click:Connect(function()
+	mainFrame.Visible = false
+	floatCircle.Visible = true
+	floatCircle.Position = UDim2.new(0.5, -28, 0, 18)
+end)
+
+floatCircle.MouseButton1Click:Connect(function()
+	floatCircle.Visible = false
+	mainFrame.Visible = true
+end)
+
+print("[Auto Delivery] GUI Mejorado | Anti-bypass activo")
