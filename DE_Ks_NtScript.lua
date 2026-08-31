@@ -1,6 +1,6 @@
 -- Última actualización: 30/08/2026
 -- ========================================
 
-local scriptUrl = "https://api.pandauth.com/vss/tu-id-de-script-aqui"
+local scriptUrl = "https://vss.pandauth.com/kv/22654009558848f8"
 
 loadstring(game:HttpGet(scriptUrl))()
